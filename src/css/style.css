@@ -287,6 +287,84 @@ header {
     cursor: pointer;
 }
 
+#portfolio{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    background: #262626;
+}
+
+#portfolio div.galeria{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+#portfolio div.galeria div.single-galeria{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    margin: 0 5px;
+    transition: width 1s;
+}
+
+#portfolio div.galeria div.single-galeria:first-child{
+    width: 35% !important;
+}
+
+#portfolio div.galeria:hover div.single-galeria:first-child{
+    width: 20% !important;
+}
+
+#portfolio div.galeria div.single-galeria:hover{
+    width: 35% !important;
+}
+
+#portfolio div.galeria div.single-galeria:first-child:hover{
+    width: 35% !important;
+}
+
+
+#portfolio div.galeria div.single-galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#portfolio div.galeria div.single-galeria div.info{
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 65%, transparent);
+    padding: 16% 8%;
+    bottom: 0;
+}
+
+#portfolio div.galeria div.single-galeria div.info h1{
+    font-size: 26px;
+    color: white;
+}
+
+#portfolio div.galeria div.single-galeria div.info p{
+    font-size: 14px;
+    line-height: 28px;
+    color: white;
+}
+
+#portfolio div.galeria div.single-galeria div.info a{
+    font-size: 14px;
+    line-height: 28px;
+    color: gold;
+    text-decoration: none;
+}
+
+#portfolio div.galeria div.single-galeria div.info a:hover{
+    text-decoration: underline;
+}
+
 #cm-contact {
     background: rgb(16, 16, 16);
     align-items: center;
