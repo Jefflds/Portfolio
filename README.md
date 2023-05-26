@@ -79,7 +79,7 @@ Jefflds (SEO da empresa) é proficientes nas seguintes habilidades técnicas:
 Entre em contato com Jefflds para oportunidades de colaboração, contratação ou qualquer outra informação relevante. Você pode encontrá-lo nos seguintes canais:
 
 - E-mail: [jefflds@email.com](mailto:jeffersonlds3009@email.com)
-- LinkedIn: [Perfil do LinkedIn]([https://www.linkedin.com/in/jefflds](https://www.linkedin.com/in/jefferson-laurindo-da-silva-60782a205/))
+- LinkedIn: [Perfil do LinkedIn]([https://www.linkedin.com/in/jefferson-laurindo-da-silva-60782a205/])
 
 Não hesite em entrar em contato para discutir projetos emocionantes ou oportunidades de carreira. Jefflds Company está ansioso para colaborar com você!
 
