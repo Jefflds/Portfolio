@@ -14,7 +14,7 @@
 /* Variables */
 :root {
     --container-color: #1a1e21 ;
-    --second-color: rgb(132, 14, 201);
+    --second-color: #ffebcd;
     /* #fd8f44; */
     --text-color: #172317;
     --bg-color: #fff;
@@ -102,15 +102,19 @@ header.shadow .logo {
 .home {
     width: 100%;
     min-height: 440px;
-    background: var(--container-color);
+    background: url(../img/banner.png);
+    background-position: center;
+    background-size: cover;
     display: grid;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 
 .home-text {
     color: var(--bg-color);
     text-align: center;
+    padding-right: 15px;
+    padding-bottom: 50px;
 }
 
 .home-title {
