@@ -1,0 +1,122 @@
+.navbar {
+    background: #181818;
+}
+header {
+    background-color: #0D0D0D;
+    height: 80px;
+}
+
+.logo {
+    color:white;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+}
+
+span {
+    color: #00ff43;
+}
+
+.navbar-toggler i {
+    color: #ffffff
+}
+
+.text-style {
+    color: #ffffff;
+    transition: 0.4s all ease;
+    position: relative;
+}
+
+.text-style:hover {
+    color: rgb(0, 255, 67);
+    transition: 0.4s all ease;
+}
+
+.text-style:visited {
+    color: #ffffff;
+}
+
+.text-style:visited:hover {
+    color: rgb(0, 255, 67);
+}
+
+#home-video {
+    height: 100vh;
+    background-color: #0D0D0D;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23353535' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23efefef' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%235b5b5b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23e3e3e3' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23353535' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23d2d2d3' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23484848' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23bebfc1' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%235a5a5a' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23a9abae' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23727272' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23a3a6a9' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#home-video .col-12 {
+    text-align: center;
+}
+
+#home-video h2 {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#home-video iframe {
+    width: 1140px; 
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+#home {
+    background: #262626;
+}
+
+#home h1 {
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+#home p {
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-wrapper a {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+#faq-accordion {
+    height: 100vh;
+    background: #202020;
+}
+
+#faq-accordion h2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

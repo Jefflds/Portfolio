@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive, 'Josefin Sans', sans-serif, Arial, Helvetica;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
