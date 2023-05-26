@@ -1,6 +1,6 @@
 /* Responsive */
 @media (max-width: 1060px) {
-    .container {
+    .page-container {
         margin: 0 auto;
         width: 95%;
     }
