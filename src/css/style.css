@@ -68,12 +68,12 @@ header {
 
 #mainSlider .carousel-caption  {
     padding-top: 0;
-    top: 15%;
-    left: -300px;
+    top: 25%;
+    left: -600px;
 }
 
 #mainSlider .slide-content .carousel-caption h2 {
-    margin-left: 100px;
+   margin-right: 170px;
 }
 
 .slide-content .text-div {
@@ -93,7 +93,7 @@ header {
     left: -600px;
 }
 #mainSlider .slide-content-2 .carousel-caption h2 {
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
 .slide-content-2 .text-div {
