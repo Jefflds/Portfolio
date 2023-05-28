@@ -1,4 +1,4 @@
-# Portfólio Profissional de Jefflds
+# Portfólio Profissional de Jefflds Company
 
 [![Logo do Portfólio](https://jefflds.github.io/Portfolio/src/img/logo.png)](https://github.com/Jefflds/Portfolio)
 
