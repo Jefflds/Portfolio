@@ -1378,3 +1378,184 @@
         font-size: 15px;
     }
 }
+
+@media screen and (min-width: 688px) and (max-width: 767px){
+    div.container.nav-container {
+        padding: 0px;
+    }
+    .logo {
+        font-size: 55px;
+    }
+    .navbar-toggler {
+        font-size: 2.5rem;
+        margin-top: 15px;
+    }
+    .collapsing {
+        background: #181818;
+    }
+    div.collapse.show {
+        background: #181818;
+        margin-top: 10px;
+    }
+    div.collapse.show .navbar-nav {
+        width: 100vw;
+        margin-left: 0;
+    }
+    #home-desktop {
+        display: none;
+    }
+    #mobile-home {
+        display: block;
+        height: 100vh;
+        
+    }
+    #mobile-home .title {
+        font-size: 55px;
+        margin-top: 55px;
+        margin-bottom: 0;
+    }
+    #mobile-home .subtitle {
+        font-size: 65px;
+    }
+    #mobile-home .description {
+        margin-top: 0;
+        text-align: justify;
+        font-size: 24px;
+        width: 600px;
+    }
+    #mobile-home .btn-km {
+        margin-top: 40px;
+        padding: 20px 40px;
+        font-size: 24px;
+    }
+    .container {
+        padding: 10px;
+    }
+    #about-us .about-title {
+        margin-top: 20px;
+        font-size: 80px;
+    }
+    #about-us .about-title::after {
+        width: 40%;
+        top: 100px;
+        left: 31.5%;
+    }
+    #about-us .about-subtitle {
+        font-size: 60px;
+    }
+    #about-us .about-text p {
+        font-size: 25px;
+        text-align: justify;
+    }
+    #about-us #about-list li {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    #about-us button {
+        padding: 15px 30px;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    #services {
+        min-height: 100vh;
+    }
+    #services .about-title {
+        margin-top: 10px;
+        font-size: 65px;
+    }
+    #services .about-title::after {
+        top: 70px;
+    }
+    #services div.col-md-4 {
+        padding-left: 0;
+    }
+    #services .card {
+        width: 550px;
+        padding: 5px;
+        margin: 5px 0;
+        height: 500px;
+    }
+    #services .card i {
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+    #services .card .about-subtitle {
+        font-size: 45px;
+    }
+    #services .card p {
+        font-size: 40px;
+        line-height: 35px;
+    }
+    #services .card .button {
+        padding: 25px 45px;
+        font-size: 20px;
+    }
+    #portfolio h2 {
+        margin-top: 10px;
+        font-size: 50px;
+    }
+    #portfolio div.galeria{
+        width: 100%;
+        height: 70vh;
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+    #portfolio div.galeria div.single-galeria{
+        min-width: 90% !important;
+    }
+    #portfolio .portfolio div.galeria div.single-galeria div.info h3 {
+        font-size: 60px;
+    }
+    #portfolio .portfolio div.galeria div.single-galeria div.info p {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    #portfolio .portfolio div.galeria div.single-galeria div.info a {
+        font-size: 28px;
+    }
+    section#portfolio .btn-km {
+        padding: 20px 60px;
+        font-size: 40px;
+    }
+    #cm-contact, .contact-me  {
+        height: 200px;
+    }
+    #cm-contact .contact-me p {
+        font-size: 28px;
+        margin: 7px;
+    }
+    #cm-contact .contact-me .button-two  {
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    footer.footer {
+        padding: 25px 0;
+    }
+    .footer div.container {
+        padding-left: 0px;
+    }
+    .footer .footer-col {
+        padding: 0px 15px 0px 8px;
+    }
+    .footer .footer-col h4{
+        font-size: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+    }
+    .footer-col h4::after {
+        top: 15px;
+    }
+    .footer .footer-col ul li a {
+        font-size: 20px;
+    }
+    .footer .footer-col .social-links a {
+        height: 45px;
+        width: 45px;
+        margin: 0px 0px 5px 0;
+        font-size: 20px;
+    }
+    .footer .footer-col .social-links i {
+        margin-top: 10px;
+    }
+}
