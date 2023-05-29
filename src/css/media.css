@@ -1744,3 +1744,178 @@
         margin-top: 10px;
     }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    div.container.nav-container {
+        padding: 0px;
+    }
+    .logo {
+        font-size: 55px;
+    }
+    .navbar-toggler {
+        font-size: 2.5rem;
+        margin-top: 15px;
+    }
+    .collapsing {
+        background: #181818;
+    }
+    div.collapse.show {
+        background: #181818;
+        margin-top: 10px;
+    }
+    div.collapse.show .navbar-nav {
+        width: 100vw;
+        margin-left: 0;
+    }
+    #mainSlider .carousel-caption  {
+        padding-top: 0;
+        top: 18%;
+        left: 90px;
+    }
+    #mainSlider .slide-content .carousel-caption h2 {
+        width: 415px;
+    }
+    .slide-content .text-div {
+        width: 412px;
+        margin-left: 0px;
+        margin-right: 0!important;
+    }
+    #mainSlider .carousel-caption p{
+        font-size: 14px;
+    
+    }
+    #mainSlider .carousel-caption .btn-km {
+        margin-right: 626px;
+    }
+    #mainSlider div.slide-content-2 .carousel-caption{
+        left: 0px;
+    }
+    #mainSlider .slide-content-2 .carousel-caption h2 {
+        width: 565px;
+    }
+    .slide-content-2 .text-div {
+        width: 330px;
+        margin-left: 110px;
+        font-size: 10px;
+    }
+    #mainSlider .slide-content-2 .btn-km {
+        margin-right: 360px;
+    }
+    .container {
+        padding: 10px;
+    }
+    #about-us .about-title {
+        margin-top: 20px;
+        font-size: 100px;
+    }
+    #about-us .about-title::after {
+        width: 40%;
+        top: 110px;
+        left: 31.5%;
+    }
+    #about-us .about-subtitle {
+        font-size: 40px;
+    }
+    #about-us .about-text p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    #about-us #about-list li {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    #about-us button {
+        padding: 15px 30px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #services .about-title {
+        margin-top: 20px;
+        font-size: 70px;
+    }
+    #services .about-title::after {
+        top: 85px;
+    }
+    #services div.col-md-4 {
+        padding-left: 0;
+    }
+    #services .card {
+        width: 300px;
+        padding: 5px;
+        height: 400px;
+    }
+    #services .card i {
+        font-size: 27px;
+        margin-bottom: 25px;
+    }
+    #services .card .about-subtitle {
+        font-size: 25px;
+    }
+    #services .card p {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    #services .card .button {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    #portfolio h2 {
+        margin-top: 20px;
+        font-size: 60px;
+    }
+    #portfolio .portfolio div.galeria div.single-galeria div.info h3 {
+        font-size: 25px;
+    }
+    #portfolio .portfolio div.galeria div.single-galeria div.info p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    #portfolio .portfolio div.galeria div.single-galeria div.info a {
+        font-size: 20px;
+    }
+    section#portfolio .btn-km {
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+    #cm-contact, .contact-me  {
+        height: 200px;
+    }
+    #cm-contact .contact-me p {
+        font-size: 38px;
+        margin: 7px;
+    }
+    #cm-contact .contact-me .button-two  {
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    footer.footer {
+        padding: 25px 0;
+    }
+    .footer div.container {
+        padding-left: 0px;
+    }
+    .footer .footer-col {
+        padding: 0px 15px 0px 8px;
+    }
+    .footer .footer-col h4{
+        font-size: 20px;
+        margin-bottom: 20px;
+        width: 195px;
+    }
+    .footer-col h4::after {
+        top: 20px;
+    }
+    .footer .footer-col ul li a {
+        font-size: 20px;
+    }
+    .footer .footer-col .social-links a {
+        height: 45px;
+        width: 45px;
+        margin: 0px 0px 5px 0;
+        font-size: 20px;
+    }
+    .footer .footer-col .social-links i {
+        margin-top: 10px;
+    }
+}
