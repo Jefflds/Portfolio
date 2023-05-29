@@ -1919,3 +1919,31 @@
         margin-top: 10px;
     }
 }
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1599px) {
+
+}
+
+@media screen and (min-width: 1600) and (max-width: 1919px) {
+
+}
+
+@media screen and (min-width: 1920) and (max-width: 2559px){
+
+}
+
+@media screen and (min-width: 2560px) and (max-width: 3439px){
+    
+}
+
+@media screen and (min-width: 3440px) and (max-width: 3839px){
+
+}
+
+@media screen and (min-width: 3840px) {
+    
+}
