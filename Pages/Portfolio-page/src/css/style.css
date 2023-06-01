@@ -161,7 +161,7 @@ header.shadow .logo {
     font-size: 0.9rem;
     font-weight: 500;
     text-transform: uppercase;
-    color: var(--second-color);
+    color: black;
 }
 
 .post-tittle {
