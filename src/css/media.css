@@ -1979,19 +1979,85 @@
         margin-right: 600px;
     }
 }
-
-@media screen and (min-width: 1920) and (max-width: 2559px){
-
-}
-
 @media screen and (min-width: 2560px) and (max-width: 3439px){
-    
+    #mainSlider .slide-content .carousel-caption h2 {
+        margin-right: 1000px;
+    }
+    #mainSlider .carousel-caption {
+        left: -250px;
+    }
+    .slide-content .text-div {
+        margin-left: 500px;
+    }
+    .slide-content-2 .text-div {
+        width: 450px;
+        margin-left: 900px;
+    }
+    #mainSlider .slide-content-2 .carousel-caption h2 {
+        margin-left: 0px;
+        margin-right: 550px;
+    }
+    #mainSlider .slide-content .carousel-caption .btn-km {
+        margin-right: 1300px;
+    }
 }
 
 @media screen and (min-width: 3440px) and (max-width: 3839px){
-
+    #mainSlider .slide-content .carousel-caption h2 {
+        margin-right: 1150px;
+        font-size: 100px;
+    }
+    #mainSlider .carousel-caption {
+        left: -250px;
+    }
+    .slide-content .text-div {
+        margin-left: 600px;
+        width: 900px;
+    }
+    #mainSlider .carousel-caption p {
+        font-size: 32px;
+    }
+    .slide-content-2 .text-div {
+        width: 900px;
+        margin-left: 1000px;
+    }
+    #mainSlider .slide-content-2 .carousel-caption h2 {
+        margin-left: 0px;
+        margin-right: 700px;
+        font-size: 100px;
+    }
+    #mainSlider .slide-content .carousel-caption .btn-km, #mainSlider .slide-content-2 .carousel-caption .btn-km {
+        margin-right: 1200px;
+        padding: 20px 150px;
+    }
 }
 
 @media screen and (min-width: 3840px) {
-    
+    #mainSlider .slide-content .carousel-caption h2 {
+        margin-right: 1440px;
+        font-size: 100px;
+    }
+    #mainSlider .carousel-caption {
+        left: -250px;
+    }
+    .slide-content .text-div {
+        margin-left: 600px;
+        width: 900px;
+    }
+    #mainSlider .carousel-caption p {
+        font-size: 32px;
+    }
+    .slide-content-2 .text-div {
+        width: 900px;
+        margin-left: 1000px;
+    }
+    #mainSlider .slide-content-2 .carousel-caption h2 {
+        margin-left: 0px;
+        margin-right: 980px;
+        font-size: 100px;
+    }
+    #mainSlider .slide-content .carousel-caption .btn-km, #mainSlider .slide-content-2 .carousel-caption .btn-km {
+        margin-right: 1200px;
+        padding: 20px 150px;
+    }
 }
