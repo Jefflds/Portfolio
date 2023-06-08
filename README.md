@@ -1,6 +1,6 @@
 # Portfólio Profissional de Jefflds Company
 
-[![Logo do Portfólio](https://jefflds.github.io/Portfolio/src/img/logo.png)](https://github.com/Jefflds/Portfolio)
+[![Logo do Portfólio](https://jefflds.github.io/Portfolio/src/img/logo.webp)](https://github.com/Jefflds/Portfolio)
 
 Bem-vindo ao repositório do portfólio profissional da Jefflds Company! Este é um espaço que destaca as habilidades, conquistas e projetos impressionantes da Jefflds Company como desenvolvedora de software. Se você está procurando por uma talentosa empresa profissional de TI, você veio ao lugar certo.
 
