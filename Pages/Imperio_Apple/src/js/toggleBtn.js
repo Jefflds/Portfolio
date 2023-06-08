@@ -12,7 +12,7 @@ for (var i = 0; i < btn.length; i++) {
 
 // Função para trocar a imagem do telefone
 function trocarImagem(botaoID) {
-  var caminhoImagem = 'src/img/' + botaoID + '.png';
+  var caminhoImagem = 'src/img/' + botaoID + '.webp';
   img.src = caminhoImagem;
 }
 
