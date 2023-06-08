@@ -147,7 +147,7 @@ header {
     display: none;
     align-items: center;
     justify-content: center;
-    background-image: url(../img/bg-home-mobile.jpg);
+    background-image: url(../img/bg-home-mobile.webp);
     background-size: cover;
     background-position: center;
     opacity: 0.87;
