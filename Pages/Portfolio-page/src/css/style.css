@@ -86,7 +86,7 @@ header.shadow .logo {
 .home {
     width: 100%;
     min-height: 440px;
-    background: url(../img/banner.png);
+    background: url(../img/banner.webp);
     background-position: center;
     background-size: cover;
     display: grid;
