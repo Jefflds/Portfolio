@@ -9,7 +9,7 @@ const Header = () => {
           <div className="w-60 max-w-full px-4">
             <a
               href="/#"
-              className="block w-full py-5 text-2xl font-bold text-center"
+              className="block w-full py-5 text-2xl font-bold text-center text-white"
             >
               JeffLDS DEV
             </a>
@@ -25,9 +25,9 @@ const Header = () => {
                   open && "navbarTogglerActive"
                 } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden`}
               >
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-slate-700 dark:bg-white"></span>
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-slate-700 dark:bg-white"></span>
-                <span className="relative my-[6px] block h-[2px] w-[30px] bg-slate-700 dark:bg-white"></span>
+                <span className="relative my-[6px] block h-[2px] w-[30px] bg-slate-200"></span>
+                <span className="relative my-[6px] block h-[2px] w-[30px] bg-slate-200"></span>
+                <span className="relative my-[6px] block h-[2px] w-[30px] bg-slate-200"></span>
               </button>
               <nav
                 id="navbarCollapse"
