@@ -1,4 +1,6 @@
-import { SingleImage } from "../../ui/partials/Header";
+import SingleImage from "../../ui/components/SingleImage/SingleImage";
+import HastyDEVLogo from "../../ui/assets/HastyDEV.svg";
+import LoucuraAmorLogo from "../../ui/assets/LoucuraAmorLogo.svg"
 
 const Home = () => {
   return (
@@ -32,10 +34,14 @@ const Home = () => {
                   </h6>
 
                   <div className="flex items-center space-x-4">
-                    <SingleImage href="#" imgSrc="" />
-
-                    <SingleImage href="#" imgSrc="" />
-
+                    <SingleImage
+                      href="https://hasty-dev.vercel.app/"
+                      imgSrc={HastyDEVLogo}
+                    />
+                    <SingleImage
+                      href="https://www.loucuraamor.com.br/"
+                      imgSrc={LoucuraAmorLogo}
+                    />
                     <SingleImage href="#" imgSrc="" />
                   </div>
                 </div>
