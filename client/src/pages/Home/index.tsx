@@ -1,34 +1,17 @@
 import { SingleImage } from "../../ui/partials/Header";
-import { useEffect, useState } from "react";
-import Particles, { initParticlesEngine } from "@tsparticles/react";
-import type { Engine } from "@tsparticles/engine";
-import { loadFull } from "tsparticles";
-import particlesOptions from "../../particles.json";
-import { ISourceOptions } from "@tsparticles/engine";
 
 const Home = () => {
-  const [init, setInit] = useState(false);
-
-  useEffect(() => {
-    initParticlesEngine(async (engine: Engine) => {
-      await loadFull(engine);
-    }).then(() => {
-      setInit(true);
-    });
-  }, []);
-
   return (
     <main>
-      {init && <Particles options={particlesOptions as ISourceOptions} />}
       <div className="relative pb-[110px] pt-[120px] dark:bg-dark lg:pt-[150px]">
         <div className="container mx-auto px-4">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-5/12">
               <div className="hero-content">
-                <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
+                <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
                   Transforme suas Ideias.
                 </h1>
-                <p className="mb-8 max-w-[480px] text-base text-body-color text-white">
+                <p className="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6">
                   Starte seu sucesso digital com a JeffLds Company. Aqui, seu
                   site ou sistema ganha vida, destacando melhor e sanando a
                   necessidade de seu negócio, ajudando a crescer como empresa e
@@ -43,7 +26,7 @@ const Home = () => {
                   </a>
                 </div>
                 <div className="clients pt-16">
-                  <h6 className="mb-6 flex items-center text-xs font-normal text-white">
+                  <h6 className="mb-6 flex items-center text-xs font-normal text-body-color dark:text-dark-6">
                     Alguns de Nossos Clientes
                     <span className="ml-3 inline-block h-px w-8 bg-body-color"></span>
                   </h6>

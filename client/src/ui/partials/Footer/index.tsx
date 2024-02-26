@@ -1,9 +1,5 @@
-const footerStyle = {
-  background: "#fff",
-};
-
 const Footer = () => {
-  return <footer style={footerStyle}>footer</footer>;
+  return <footer>footer</footer>;
 };
 
 export default Footer;
