@@ -9,7 +9,7 @@ const ListItem = ({ children, NavLink }: ListItemProps) => {
   return (
     <a
       href={NavLink}
-      className="flex py-2 text-base font-medium text-dark hover:text-primary dark:text-white lg:ml-10 lg:inline-flex"
+      className="flex py-2 text-base font-medium text-dark hover:text-primary text-dark lg:ml-10 lg:inline-flex"
     >
       {children}
     </a>

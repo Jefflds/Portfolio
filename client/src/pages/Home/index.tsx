@@ -1,6 +1,7 @@
 import SingleImage from "../../ui/components/SingleImage/SingleImage";
 import HastyDEVLogo from "../../ui/assets/HastyDEV.svg";
 import LoucuraAmorLogo from "../../ui/assets/LoucuraAmorLogo.svg"
+import ImperioAppleLogo from "../../ui/assets/imperioapple.webp"
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-5/12">
               <div className="hero-content">
-                <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
+                <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-dark sm:text-[42px] lg:text-[40px] xl:text-5xl">
                   Transforme suas Ideias.
                 </h1>
                 <p className="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6">
@@ -42,7 +43,7 @@ const Home = () => {
                       href="https://www.loucuraamor.com.br/"
                       imgSrc={LoucuraAmorLogo}
                     />
-                    <SingleImage href="#" imgSrc="" />
+                    <SingleImage href="https://imperioapple.com.br/" imgSrc={ImperioAppleLogo}/>
                   </div>
                 </div>
               </div>
