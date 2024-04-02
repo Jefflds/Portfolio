@@ -5,7 +5,7 @@ import ImperioAppleLogo from "../../../ui/assets/imperioapple.webp";
 
 const Hero = () => {
   return (
-    <div className="relative pb-[110px] pt-[120px]  lg:pt-[150px]">
+    <section className="relative pb-[110px] pt-[120px]  lg:pt-[150px]" id="hero">
       <div className="container mx-auto px-4">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-5/12">
@@ -98,7 +98,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

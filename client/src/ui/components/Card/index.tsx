@@ -6,9 +6,10 @@ const Card = (props: CardProps) => {
       <div className="bg-white border border-gray-200 rounded-lg shadow-lg h-full">
         <div className="p-4 flex flex-col items-center justify-center">
           <span className="text-4xl font-bold text-indigo-500">
-            + de {props.quantity}
+            {props.icon && <> {props.icon}</>}
+            {props.quantity && <>+ de {props.quantity}</>}
           </span>
-          <h3 className="text-xl font-semibold mt-2">{props.title}</h3>
+          <h3 className="text-xl font-semibold mt-2 text-center">{props.title}</h3>
           <p className="mt-2 text-gray-600 text-center">{props.description}</p>
         </div>
       </div>
@@ -17,4 +18,3 @@ const Card = (props: CardProps) => {
 };
 
 export default Card;
-

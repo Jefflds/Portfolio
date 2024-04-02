@@ -3,7 +3,7 @@ import Card from "../../components/Card";
 
 const About = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center">
+    <section className="w-full flex flex-col items-center justify-center" id="about">
       <span className="text-2xl text-indigo-500 font-bold">
         Soluções digitais sob medida
       </span>
@@ -51,7 +51,7 @@ const About = () => {
           <img src={AboutImg} alt="Imagem" className="w-full h-auto" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
