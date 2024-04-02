@@ -1,4 +1,5 @@
 import AboutImg from "../../assets/aboutimg.webp";
+import Card from "../../components/Card";
 
 const About = () => {
   return (
@@ -8,53 +9,22 @@ const About = () => {
       </span>
       <h2 className="text-4xl mb-6">Defina sua presença digital conosco</h2>
       <div className="w-full flex flex-wrap justify-center">
-        <div className="max-w-sm w-full sm:w-1/2 lg:w-1/3 p-6">
-          <div className="bg-white border border-gray-200 rounded-lg shadow-lg">
-            <div className="p-4 flex flex-col items-center justify-center">
-              <span className="text-4xl font-bold text-indigo-500">+ de 5</span>
-              <h3 className="text-xl font-semibold mt-2">
-                Sites criados do ZERO
-              </h3>
-              <p className="mt-2 text-gray-600 text-center">
-                Soluções web feitas sob medida, cada uma delas uma vitrine
-                digital do seu negócio.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="max-w-sm w-full sm:w-1/2 lg:w-1/3 p-6">
-          <div className="bg-white border border-gray-200 rounded-lg shadow-lg">
-            <div className="p-4 flex flex-col items-center justify-center">
-              <span className="text-4xl font-bold text-indigo-500">
-                + de 18
-              </span>
-              <h3 className="text-xl font-semibold mt-2">
-                Projetos Concluídos
-              </h3>
-              <p className="mt-2 text-gray-600 text-center">
-                Executados com maestria em diversas tecnologias e plataformas.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="max-w-sm w-full sm:w-1/2 lg:w-1/3 p-6">
-          <div className="bg-white border border-gray-200 rounded-lg shadow-lg">
-            <div className="p-4 flex flex-col items-center justify-center">
-              <span className="text-4xl font-bold text-indigo-500">
-                + de 26
-              </span>
-              <h3 className="text-xl font-semibold mt-2">
-                Clientes Satisfeitos
-              </h3>
-              <p className="mt-2 text-gray-600 text-center">
-                Pelo mundo com suas expectativas superadas e suas marcas
-                fortalecidas.
-              </p>
-            </div>
-          </div>
-        </div>
+        <Card
+          quantity="5"
+          title="Sites criados do ZERO"
+          description="Soluções web feitas sob medida, cada uma delas uma vitrine digital do seu negócio."
+        />
+        <Card
+          quantity="18"
+          title="Projetos Concluídos"
+          description="Executados com maestria em diversas tecnologias e plataformas."
+        />
+        <Card
+          quantity="26"
+          title="Clientes Satisfeitos"
+          description="Pelo mundo com suas expectativas superadas e suas marcasFortalecidas."
+        />
       </div>
-
       <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
         <div className="max-w-xl lg:w-full lg:mr-16 mb-8 lg:mb-0">
           <h2 className="text-3xl font-bold mb-4">
