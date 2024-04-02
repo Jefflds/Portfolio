@@ -3,11 +3,16 @@ import Card from "../../components/Card";
 
 const About = () => {
   return (
-    <section className="w-full flex flex-col items-center justify-center" id="about">
-      <span className="text-2xl text-indigo-500 font-bold">
-        Soluções digitais sob medida
-      </span>
-      <h2 className="text-4xl mb-6">Defina sua presença digital conosco</h2>
+    <section
+      className="w-full flex flex-col items-center justify-center pb-36"
+      id="about"
+    >
+      <div className="px-8 flex flex-col items-center justify-center">
+        <span className="text-2xl text-indigo-500 font-bold">
+          Soluções digitais sob medida
+        </span>
+        <h2 className="text-4xl mb-6 text-center">Defina sua presença digital conosco</h2>
+      </div>
       <div className="w-full flex flex-wrap justify-center">
         <Card
           quantity="5"
@@ -25,7 +30,7 @@ const About = () => {
           description="Pelo mundo com suas expectativas superadas e suas marcasFortalecidas."
         />
       </div>
-      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between px-8">
         <div className="max-w-xl lg:w-full lg:mr-16 mb-8 lg:mb-0">
           <h2 className="text-3xl font-bold mb-4">
             Personalizando o amanhã digital

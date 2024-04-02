@@ -7,7 +7,7 @@ import { FaSearch } from "react-icons/fa";
 
 const Services = () => {
   return (
-    <section className="w-full flex flex-col justify-end items-end" id="services">
+    <section className="w-full flex flex-col justify-end items-end px-4 lg:px-24" id="services">
       <span className="text-xl text-indigo-500 font-bold">
         Soluções Abrangentes Para Fortalecer Seu Negócio
       </span>
