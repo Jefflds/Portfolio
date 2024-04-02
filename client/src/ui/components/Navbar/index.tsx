@@ -30,6 +30,7 @@ const Navbar = () => {
           <ListItem NavLink="/#">Projetos</ListItem>
           <ListItem NavLink="/#">Profissional</ListItem>
           <ListItem NavLink="/#">Depoimentos</ListItem>
+          <ListItem NavLink="/#">Blog</ListItem>
           <div className="block lg:hidden w-full">
             <Button ButtonText="Contate-nos" />
           </div>

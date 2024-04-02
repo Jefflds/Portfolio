@@ -16,15 +16,19 @@ const Header = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
-    <HeaderContainer className={`fixed left-0 top-0 z-20 flex w-full ${scrolling ? 'bg-white shadow-lg' : 'bg-transparent' }`}>
+    <HeaderContainer
+      className={`fixed left-0 top-0 z-20 flex w-full ${
+        scrolling ? "bg-white shadow-lg" : "bg-transparent"
+      }`}
+    >
       <div className="container mx-auto px-4">
         <div className="relative -mx-4 flex items-center justify-between">
           <Logo />
