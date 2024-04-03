@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ListItem from "../ListItem";
-import Button from "../Button";
+// import Button from "../Button";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -43,12 +43,12 @@ const Navbar = () => {
           <ListItem NavLink="#projects" onClick={() => handleNavLinkClick()}>
             Projetos
           </ListItem>
-          <ListItem NavLink="/#">Profissional</ListItem>
+          {/* <ListItem NavLink="/#">Profissional</ListItem>
           <ListItem NavLink="/#">Depoimentos</ListItem>
-          <ListItem NavLink="/#">Blog</ListItem>
-          <div className="block lg:hidden w-full">
+          <ListItem NavLink="/#">Blog</ListItem> */}
+          {/* <div className="block lg:hidden w-full">
             <Button ButtonText="Contate-nos" />
-          </div>
+          </div> */}
         </div>
       </nav>
     </div>

@@ -2,10 +2,14 @@ import SingleImage from "../../components/SingleImage/SingleImage";
 import HastyDEVLogo from "../../../ui/assets/HastyDEV.svg";
 import LoucuraAmorLogo from "../../../ui/assets/LoucuraAmorLogo.svg";
 import ImperioAppleLogo from "../../../ui/assets/imperioapple.webp";
+import Button from "../../components/Button";
 
 const Hero = () => {
   return (
-    <section className="relative pb-[110px] pt-[120px]  lg:pt-[150px]" id="hero">
+    <section
+      className="relative pb-[110px] pt-[120px]  lg:pt-[150px]"
+      id="hero"
+    >
       <div className="container mx-auto px-4">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-5/12">
@@ -19,12 +23,10 @@ const Hero = () => {
                 de seu negócio, ajudando a crescer como empresa e na internet.
               </p>
               <div className="flex flex-wrap items-center">
-                <a
-                  href="/#"
-                  className="inline-flex items-center justify-center px-5 py-3 text-center text-base font-medium text-white hover:text-primary bg-blue-500 hover:bg-blue-600 rounded-lg"
-                >
-                  Venha Transformar Seu Negocio
-                </a>
+                <Button
+                  ButtonText="Venha Transformar Seu Negocio"
+                  ButtonLink="https://api.whatsapp.com/send?phone=5511977328121"
+                />
               </div>
               <div className="clients pt-16">
                 <h6 className="mb-6 flex items-center text-xs font-normal text-body-color dark:text-dark-6">

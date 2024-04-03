@@ -35,7 +35,10 @@ const Header = () => {
           <div className="flex w-full items-center justify-between px-4">
             <Navbar />
             <div className="hidden lg:block">
-              <Button ButtonText="Contate-nos" />
+              <Button
+                ButtonLink="https://api.whatsapp.com/send?phone=5511977328121"
+                ButtonText="Contate-nos"
+              />
             </div>
           </div>
         </div>
