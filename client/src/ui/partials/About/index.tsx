@@ -15,17 +15,17 @@ const About = () => {
       </div>
       <div className="w-full flex flex-wrap justify-center">
         <Card
-          quantity="5"
+          quantity="6"
           title="Sites criados do ZERO"
           description="Soluções web feitas sob medida, cada uma delas uma vitrine digital do seu negócio."
         />
         <Card
-          quantity="18"
+          quantity="6"
           title="Projetos Concluídos"
           description="Executados com maestria em diversas tecnologias e plataformas."
         />
         <Card
-          quantity="26"
+          quantity="4"
           title="Clientes Satisfeitos"
           description="Pelo mundo com suas expectativas superadas e suas marcasFortalecidas."
         />

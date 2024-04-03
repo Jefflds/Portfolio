@@ -3,11 +3,21 @@ import { TbWorldCode } from "react-icons/tb";
 import { IoRocket } from "react-icons/io5";
 import { CiSettings } from "react-icons/ci";
 import { MdSupportAgent } from "react-icons/md";
-import { FaSearch } from "react-icons/fa";
+import {
+  FaSearch,
+  FaCog,
+  FaCode,
+  FaDesktop,
+  FaMobileAlt,
+  FaTools
+} from "react-icons/fa";
 
 const Services = () => {
   return (
-    <section className="w-full flex flex-col justify-end items-end px-4 lg:px-24" id="services">
+    <section
+      className="w-full flex flex-col justify-end items-end px-4 lg:px-24"
+      id="services"
+    >
       <span className="text-xl text-indigo-500 font-bold">
         Soluções Abrangentes Para Fortalecer Seu Negócio
       </span>
@@ -39,6 +49,31 @@ const Services = () => {
           icon={<FaSearch />}
           title="Estratégias de SEO Personalizadas"
           description="Estratégias de SEO adaptadas para melhorar a visibilidade e classificação do seu site."
+        />
+        <Card
+          icon={<FaCog />}
+          title="Criação de Sistemas Empresariais"
+          description="Criação de um sistema com gerenciamento, autenticação e tudo o que seu negócio precisa."
+        />
+        <Card
+          icon={<FaCode />}
+          title="Criação de APIs"
+          description="Desenvolvimento e implementação de APIs personalizadas para integração de sistemas e serviços."
+        />
+        <Card
+          icon={<FaDesktop />}
+          title="Criação de Softwares"
+          description="Desenvolvimento de softwares personalizados para atender às necessidades específicas do seu negócio."
+        />
+        <Card
+          icon={<FaMobileAlt />}
+          title="Criação de Aplicativos"
+          description="Desenvolvimento de aplicativos móveis para iOS e Android, desde ideias simples até projetos complexos."
+        />
+        <Card
+          icon={<FaTools />}
+          title="Manutenção de Sites Existentes"
+          description="Atualização, correção de bugs e melhorias contínuas para manter seu site funcionando de forma eficiente e segura."
         />
       </div>
     </section>
