@@ -1,6 +1,12 @@
-import { ProjectProps } from "../../../data/@types/Project/Project.type";
+export type ProjectProps = {
+  type: string;
+  title: string;
+  description: string;
+  link: string;
+  stacks: string[];
+};
 
-const Project = (props: ProjectProps) => {
+const ProjectCard = (props: ProjectProps) => {
   return (
     <div className="sm:px-8 lg:px-16 xl:px-20 flex flex-col items-start justify-center mt-6 rounded-lg shadow-lg bg-white pb-9 w-full h-auto px-10">
       <span className="text-base sm:text-lg lg:text-xl xl:text-2xl text-indigo-500 font-bold mb-2">
@@ -19,7 +25,7 @@ const Project = (props: ProjectProps) => {
           </span>
         ))}
       </div>
-      <p className="mb-4 text-sm sm:text-base lg:text-lg xl:text-xl text-gray-700">
+      <p className="mb-4 text-sm text-justify sm:text-base lg:text-lg xl:text-xl text-gray-700">
         {props.description}
       </p>
       <a
@@ -34,4 +40,4 @@ const Project = (props: ProjectProps) => {
   );
 };
 
-export default Project;
+export default ProjectCard;

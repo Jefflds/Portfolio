@@ -1,7 +1,7 @@
 import About from "../../ui/partials/About";
 import { Hero } from "../../view/partials/Hero/Hero";
-import Projects from "../../ui/partials/Projects";
 import Services from "../../ui/partials/Services";
+import Projects from "../../view/partials/Projects/Projects";
 
 const Home = () => {
   return (
