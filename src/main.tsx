@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import App from "./App.tsx";
+import App from "./view/App.tsx";
 import "./ui/styles/index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
