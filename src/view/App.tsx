@@ -1,4 +1,4 @@
-import Header from "../ui/partials/Header";
+import Header from "./layout/Header/Header";
 import Home from "../pages/Home";
 import Footer from "../ui/partials/Footer";
 
